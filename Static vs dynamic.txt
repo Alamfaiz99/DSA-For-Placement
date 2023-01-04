@@ -1,0 +1,26 @@
+static
+
+-->perform type checking at the compile time
+   compile time-->conversion of source code into machine code is known as compile time.
+   int a=10;
+   int name="faizan"//return error
+   "faizan" is not an int its string
+-->error will be shown at the compile time
+-->declare data type when you use it
+-->more control
+-->You will get compile time error
+public void foo() {
+    int x = 5;
+    boolean b = x;//compile error-->because boolean can take only True and False value
+}
+int a=10;
+a="faizan"
+You will get an eroor because you have defined a as integer
+
+Dynamic
+-->Perofrm type checking during run time
+-->Error might not shown till te program is run
+-->No need to declare datatype in dynamic programming
+-->saves time during writing the program but may give error during run time
+   a=10
+   b="faizan"//at run time it will check for the data type

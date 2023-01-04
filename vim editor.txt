@@ -1,0 +1,21 @@
+An introduction to the vi editor
+The lowly and now middle-aged vi editor is still a favorite among *nix system administrators and remains an essential
+ tool for command-line file creation and editing.
+
+ -->It’s easy to invoke Vi. At the command line, you type vi <filename> 
+ to create a new file, or to edit an existing on
+ $ vi filename.txt
+
+ Vi edit modes
+
+ -->after writing into the file
+
+ ->in oredr to save changes into the file
+  -->press ESC-->then write commands
+  -->i-->Switch to insert mode
+  -->ESC switch to Command mode 
+  -->:w-->save and continue editing
+  -->:wq-->save and quit
+-->in order to check the contents of the file
+    -->cat <filename>
+    

@@ -1,0 +1,15 @@
+Lets say we are in a marriage..
+We have to click a picture...(working directory)
+Right now we are on backstage..(Working directory-->add)
+Now we have to come on stage.. (Staging area-->comming)
+After clicking the picture we will come out of the stage..(central repo)
+
+-->lets say you are on stage(-->added)
+-->Now i want you to go backstage(-->git stash)-->will take u to the back stage
+-->Means my project flder was as it is-->like at the starting
+
+-->In order to bring back all those changes we can use
+  git stash pop-->
+
+-->This is known as stashing-->means putting changes on the stack and when needed takethe changes back
+        

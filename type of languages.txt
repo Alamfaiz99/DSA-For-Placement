@@ -1,0 +1,10 @@
+Difference between Functional vs. Object-Oriented vs. Procedural Programming
+Functional Programming	               Object Oriented Programming                  Procedural Programming
+Data and functions are the same things; the main focus is on function composition.	Objects are composed of methods and attributes; the main focus is communication among objects.	Data and functions are not the same; the focus is on procedures (operations).
+Ideal for concurrent and parallel programming	Ideal for scalable software systems	Ideal for general-purpose programming
+For pure functional programming, data are immutable.	Data and methods can be hidden.	Data is exposed, and it can be changed in any context.
+Declarative style: Developer describes what your objectives are in code	Imperative style: Developer specifies how to reach the goal in code.	Imperative style: Developer specifies how to reach the goal in code.
+Code is organized into functions and modules.	Code is organized into objects.	Code is organized into modules and procedures.
+
+link:https://www.scaler.com/topics/java/oop-vs-functional-vs-procedural/
+link:https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/
