@@ -6,3 +6,14 @@ You will get te path of that particular file .exe file
 
 3)open git
 Will open that .exe file
+
+4)git merge <name of branch to be merged with the master  branch>
+in this way you can merge the branch with the master branch
+                   master-head
+Syntax:git merge <branch name>
+master : c1-->c2-->c3-->
+test   :                 t1-->t2
+                              test-head
+
+Now lest mege all of them-->
+master:c1-->c2-->c3-->(t1--->t2);
