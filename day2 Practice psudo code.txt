@@ -1,0 +1,20 @@
+Q1-->Input a year and find whether it is a leap year or not.
+input year
+number should be divisible by 4 expect the century numbers-->
+for century number number should be divisible by 400...
+1900/400,2000/400,2100/400 then it will be leap year
+1904/4-->its a leap year
+if(year%4==0){
+    if(year%400==0 || year%400==4){
+       print(leap)
+       exit
+    }
+    else{
+        print(not)
+        exit
+    }
+
+}
+else{
+    print(not)
+}
