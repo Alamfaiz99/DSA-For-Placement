@@ -1,0 +1,8 @@
+1)echo $PATH
+In order to check the environment variables
+
+2)where git
+You will get te path of that particular file .exe file
+
+3)open git
+Will open that .exe file

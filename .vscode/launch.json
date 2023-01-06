@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch PrimitiveDataTypes",
+      "request": "launch",
+      "mainClass": "PrimitiveDataTypes",
+      "projectName": "DSA For Placement_f4dff83b"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
