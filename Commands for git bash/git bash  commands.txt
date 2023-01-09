@@ -17,3 +17,6 @@ test   :                 t1-->t2
 
 Now lest mege all of them-->
 master:c1-->c2-->c3-->(t1--->t2);
+
+5)git log --oneline
+in order to get the number of cmmits and the id of commits
