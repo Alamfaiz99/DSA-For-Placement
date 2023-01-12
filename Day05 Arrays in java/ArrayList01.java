@@ -34,3 +34,4 @@ public class ArrayList01 {
 // it will create new array list of doublesize 
 // old elements are copied in new array
 
+    
