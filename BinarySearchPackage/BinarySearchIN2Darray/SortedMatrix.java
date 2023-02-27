@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 // What is sorted matrix
@@ -8,6 +10,14 @@ import java.util.Scanner;
 //  {4,5,6},
 //  {7,8,9}}
 // the above is strictly sorted array
+// Here first element of row is always greater than the last element of previous row
+// Strictly sorted matrix
+// rs=0 and re=n-1
+// m=rs=(re-rs)/2
+// seach for the element
+// if element==target return ans
+// if element > target //ignore previous rows
+// if element <target  ignore next rows
 
 public class SortedMatrix {
     // search in the row provided between cs and re
@@ -31,8 +41,8 @@ public class SortedMatrix {
     int cMid=cols/2;
     if(rows==1) return binarySearch(mat, 0, 0, mat.length-1, target);
     // now run the loop till two row are remaining
-     while(rStart<(rEnd-1)){
-        // WHie truw it will have more than two rows
+     while(rStart<(rEnd-1)){//for two rows
+        // WHie true it will have more than two rows
         int mid=rStart+(rEnd-rStart)/2;
         if(mat[mid][cMid]==target) return new int[]{mid,cMid};
         if(mat[mid][cMid]<target)  rStart=mid;
@@ -50,9 +60,12 @@ public class SortedMatrix {
     if(target<=mat[rStart+1][cMid-1]) return binarySearch(mat, rows, rEnd, cMid, target);
     // search in fourth half
     if(target<=mat[rStart+1][cMid+1]) return binarySearch(mat, rows, rEnd, cMid, target);
-
    }
-    public static void main(String[] args) {
-    
+   }
+     public static void main(String[] args) {
+       int[][] mat={{1,2,3},
+                    {4,5,6},
+                    {7,8,9}};
+      System.out.println(Arrays.toString(search(mat, 9)));    
    }    
 }
