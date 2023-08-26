@@ -1,2 +1,19 @@
 Arrange-->10^5-->Sorting and do the constructive approach
 Largest Number formed from an Array-->Example
+
+------------------------------------------------------------------------------------------
+How can write custom comparing logic to sort complex datatypes..
+Arrays.sort(pairs, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] a, int[] b) {
+                return Integer.compare(a[1], b[1]);
+            }
+        });
+To sort the array of pairs based on the second value in Java, you can use the built-in
+Arrays.sort() method and provide a custom Comparator that compares the second values of the pairs
+
+The compare() method inside the Comparator compares the second values of two pairs (a and b) using Integer.compare().
+It returns a negative value if the first value is less than the second value, a positive value if the first value is 
+greater than the second value, and zero if they are equal. 
+This way, the Arrays.sort() method uses the comparator to sort the pairs based on the comparison result.
+--------------------------------------------------------------------------------------------
