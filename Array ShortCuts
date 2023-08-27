@@ -17,3 +17,8 @@ It returns a negative value if the first value is less than the second value, a 
 greater than the second value, and zero if they are equal. 
 This way, the Arrays.sort() method uses the comparator to sort the pairs based on the comparison result.
 --------------------------------------------------------------------------------------------
+If We ahhve to count the occurances or no of times an element appears
+-->The only thing we ahve to apply is the 'Hashing'
+-->But it will take an Auxiliary space-->O(N)
+HashMap<Integer,Integer> map=new HashMap<>();
+---------------------------------------------------------------------------------------------
