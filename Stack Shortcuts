@@ -1,3 +1,9 @@
 1)Remove duplicates-->For single pass only
                       You can use stack
 2)For multipass-->you have to use Recursion to remove duplicates
+3)Problems involving balanced parentheses, brackets, or other delimiters 
+  often require stack-based or stack-like approaches.
+4)Look for problems where you need to check the validity or balance of elements, 
+  such as parentheses, braces, or tags, in a given string or sequence.
+5)Problem involves nested or hierarchial approach
+6)find the length or count of valid or balanced subsequences within a given input.
