@@ -1,0 +1,16 @@
+1)10^5-->Mostly based on Sorting
+2)inversions in an array-test your understanding of sorting algorithms
+3) Inversions are a measure of how "out of order" an array is, and 
+   finding the number of inversions can be useful in various applications
+   like ranking, similarity analysis, and more.
+4)The best-suited algorithm for solving inversion-related problems efficiently is the "Merge Sort" algorithm.
+5)he reason is that Merge Sort inherently counts inversions as it merges two halves of an array, and it does this in O(N log N) time complexity.
+6)Here's a high-level outline of how Merge Sort can be used to count inversions:
+
+i)Split: Divide the array into two halves.
+
+ii)Recursively Sort: Recursively sort the two halves.
+
+iii)Merge and Count: While merging the two sorted halves into a single sorted array, count the inversions. 
+When you merge elements from the right half into the left half, 
+you increment the inversion count if an element in the right half is smaller than an element in the left half.
