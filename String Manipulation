@@ -1,0 +1,4 @@
+1)Length of Longest substring-->Sliding window
+2)Without repeating chars-->For this you req a DS to keep track of duplicates
+3)For unique characters we require a Set as DS.
+4)By adding these two you can solve the problem using sliding window.
