@@ -1,0 +1,6 @@
+Triplet Sum in Array-->
+The intuition behind this problem is to use a sorting-based approach combined with a two-pointer technique.
+1)Fix one element at left most
+2)Use two pointers to find next to elemnts
+3)For triplets thats very efficient approach
+
