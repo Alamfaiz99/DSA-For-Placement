@@ -1,0 +1,34 @@
+Deque(Double Ended Queue)-->
+1)Insertion and deletion can be done from both ends
+2)It is very useful to keep track of the enxt greater eleemnt..
+--------------------------------------------------------------
+
+Implementation of Deque-->
+1)Creation-->
+  i)ArrayDeque-->Implementation of Deque(Resizeable array)
+    Allow constant time-->Element insertion and removal of elements
+  ii)LinkedList-->With the help of Doubly Linked List
+    You can implement deque
+--------------------------------------------------------------
+Operations of Dequeue-->
+1)Adding Elements:
+  addFirst()
+  addLast()
+  offerFirst()-->returns true
+  offerLast()-->returns true if inserted successfully
+2)Removing Elements-->
+  removeFirst()
+  removeLast()
+  pollFirst()-->returns null if empty
+  pollLast()-->return null if empty
+3)Inspecting Elements:
+  getFirst()
+  getLast()
+  peekFirst()
+  peekLast()
+4)Size and Empty Check:
+ size()-returns sizze of deque
+ isEmpty()-returns whether empty or not(true or false)
+-------------------------------------------------------------
+ Implementation of Next greater Element
+https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1?page=1&difficulty[]=1&category[]=Arrays&sortBy=submissions
