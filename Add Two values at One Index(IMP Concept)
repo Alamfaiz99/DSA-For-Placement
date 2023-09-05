@@ -1,0 +1,26 @@
+Lets see How we can add Two values at one index
+When the array is sorted --->
+-------------------------------------------
+We want to rearrange array in such way-->alternating min max -->we will get
+-----------------------------------------
+Dividend=divissor*quotient+remainder--->1
+quotient=Dividend/Divisor
+remainder=Dividend%Divisor
+
+--------------------------------------------------
+Using first we will fix the divisor
+divisor=(max)+1
+So that every value will remain as it is
+------------------------------------------------
+In the above problem
+even-->max
+odd-->min
+----------------------------------------------
+if(i%2==0) a[i]=a[max_ind]%divisor*divisor+rem(a[i))
+if(i%2==1) a[i]=a[min_ind]%divisor*divisor+rem(a[i])
+--------------------------------------------
+At last in order to retirve the corect value
+iterate over the array
+a[i]/divisor;-->correct value
+-----------------------------------------------
+https://practice.geeksforgeeks.org/problems/-rearrange-array-alternately-1587115620/1?page=1&difficulty[]=1&category[]=Arrays&sortBy=submissions
