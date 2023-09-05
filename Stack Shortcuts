@@ -7,3 +7,12 @@
   such as parentheses, braces, or tags, in a given string or sequence.
 5)Problem involves nested or hierarchial approach
 6)find the length or count of valid or balanced subsequences within a given input.
+---------------------------------------------------------------------------------
+1)Balanced Parenthesis
+ {{{{-->even->No of Reversal-->to make balanced 4/2=2-->n/2+n%2
+ }}}}-->even-->same as above
+ }}} + {-->left+right-->even-->we can balance-->reversal-->left/2+left%2+right/2+right%2;
+ {{{+}-->same as above
+ If sum of both is odd-->It will never balance
+Here also---->Stack is used to check for the balanced parenthesis
+-------------------------------------------------------------------------------
