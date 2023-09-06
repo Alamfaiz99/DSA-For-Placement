@@ -1,0 +1,6 @@
+1)Mother Vertex-->You will be able to reach all the nodes from that node than it is mither vertex
+ concept is-->Start from single point-->apply DFS
+ The node you wont be able to reach-->That means No intermediate node has access to it
+ Thats why-->It will be a candidate vertex...
+ Atlast Apply dfs on candidate and check it it reaches all the nodes or not-->
+ If yes then return true;
