@@ -1,0 +1,5 @@
+1)How to make a String a Palindrome by inserting chars at starts
+  if already-->add 0 chars
+  if not->starts from back-->and check whether it is palin->if yes-->len -1 will be chars to add
+  to Make all Palindrome
+  In this way we can make a string Palindrome..
