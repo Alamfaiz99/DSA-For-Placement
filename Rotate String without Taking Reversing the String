@@ -1,0 +1,39 @@
+To optimize the code and avoid the time limit exceeded error, you can implement a more efficient approach that avoids repeated rotations of the string.
+You can calculate the net rotation needed for each character in the string and use that information to answer the Type 2 queries directly. Here's the optimized code:
+
+```java
+import java.util.ArrayList;
+
+class Solution {
+    static ArrayList<Character> StringQuery(int N, int Q, String S, int Q1[], int Q2[]) {
+        ArrayList<Character> result = new ArrayList<>();
+        
+        int netRotation = 0; // Initialize net rotation to 0
+
+        for (int i = 0; i < Q; i++) {
+            if (Q1[i] == 1) {
+                // Type 1: Rotate the string by K characters from the end
+                int K = Q2[i] % N;
+                netRotation = (netRotation + K) % N;
+            } else if (Q1[i] == 2) {
+                // Type 2: Print the character at the I'th index
+                int I = (Q2[i] - netRotation + N) % N; // Adjust the index
+                result.add(S.charAt(I));
+            }
+        }
+
+        return result;
+    }
+}
+```
+
+In this optimized code:
+
+1. We maintain a `netRotation` variable to keep track of the net rotation needed for the entire string.
+
+2. For Type 1 queries, we calculate the net rotation required by adding the given rotation `K` to `netRotation`. 
+Since we only keep track of the net rotation, we use modulo `N` to ensure it stays within the bounds of the string length.
+
+3. For Type 2 queries, we adjust the index `I` by subtracting `netRotation` and adding `N` to ensure it's within the bounds of the rotated string.
+
+This optimized approach processes each query in O(1) time, resulting in a total time complexity of O(Q), which is within the expected time limit.
