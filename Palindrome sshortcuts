@@ -1,5 +1,18 @@
 1)How to make a String a Palindrome by inserting chars at starts
   if already-->add 0 chars
-  if not->starts from back-->and check whether it is palin->if yes-->len -1 will be chars to add
-  to Make all Palindrome
-  In this way we can make a string Palindrome..
+  Now if the string is not palindrome.....
+  ------------------------------------------------------------
+same as palindrome
+i=0;
+j=n-1;
+we will check chars at both index...
+if match----->i++ j--;
+if not match--->at the start we have to add chars
+-------------------------------------------------------------
+Like we have to add->increment the res++;
+i=0;
+j=--trim;
+
+We have to initialize the trim  with trim=j at the start
+-------------------------------------------------
+In this way you will get the result...
