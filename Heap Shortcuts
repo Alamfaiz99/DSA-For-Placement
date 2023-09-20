@@ -1,0 +1,4 @@
+1)We can use Heaps When you will get Sorted Array and make a single array out of it
+ using the concept of minHeap You will get the res;
+ https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1?page=3&difficulty[]=1&category[]=Arrays&sortBy=submissions
+2)If you have to find the median then also you can use Heap...
