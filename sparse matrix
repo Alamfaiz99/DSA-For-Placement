@@ -1,0 +1,16 @@
+A matrix is a 2 dimentional data object having n rows and n colums
+Thats means a total of n*m elements will be there.
+-----------------------------------------------------------------
+If a matrix contains 2/3 elements as a zero then that matrx is known as sparse matrix.
+----------------------------------------------------------------
+Thats a wastage of memory and takes time to traverse tahts why we reduce the matrix in the form
+row    |
+col    |
+value  |
+------------------------------------------------------------
+You can either use array of linked list to do the same
+1)arrray-->arr[3][size]-->size=No of non-zero elements
+2)Linked List-->
+Node--> Row|COl|Value|Next-->sstructure of node
+----------------------------------------------------------
+https://www.geeksforgeeks.org/sparse-matrix-representation/
