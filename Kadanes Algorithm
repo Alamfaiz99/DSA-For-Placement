@@ -1,0 +1,10 @@
+Maximum Subarray Sum...
+It will contain both positive and negivite elements...
+In that case we have to find the subarray with maximum sum...
+What is subarray?
+It is a contiguous part of an array..
+
+------------------------------------------------------------
+Brute Force Approach
+Checking for all teh combinations ussing O(n^2) as time complexity
+-------------------------------------------------------------------
