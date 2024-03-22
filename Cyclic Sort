@@ -1,0 +1,38 @@
+Cyclic Sort:
+When you will get an array within a range-->Cyclic sort
+
+0 1 2 3 4 5
+2 3 1 4 5 6
+
+-->Missing number within a range
+-->
+We have to ask question--->
+Is this at the correct index
+index=value-1-->relation
+-------------------------------
+int i=0;
+while(i<n){
+   int cInd=value-1;
+   if(cInd<n && cInd!=i){
+      //make a swap
+   }
+   else{
+      //move forwad
+   }
+}
+----------------------------------
+//It also handles the duplicates
+public static void sort(int[] arr){
+	    int i=0;
+	    int n=arr.length;
+	    while(i<n){
+	        int cInd=arr[i]-1;
+	        if(cInd<n && cInd!=i && arr[cInd]!=arr[i]){
+	            //swap
+	            swap(i,cInd,arr);
+	        }
+	        else{
+	            i++;
+	        }
+	    }
+	}
